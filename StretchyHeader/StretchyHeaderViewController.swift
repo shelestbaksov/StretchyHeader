@@ -12,17 +12,27 @@ class StretchyHeaderViewController: UICollectionViewController, UICollectionView
     fileprivate let cellID = "StretchyHeaderViewController"
     fileprivate let headerID = "headerID"
     fileprivate let padding = CGFloat(16)
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        collectionView.backgroundColor = .white
-        
-        // layout customisation
-        
+        setupCollectionView()
+        setupCollectionViewLayout()
+    }
+    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
+    
+    fileprivate func setupCollectionViewLayout() {
         if let layout = collectionViewLayout as? UICollectionViewFlowLayout {
             layout.sectionInset = .init(top: padding, left: padding, bottom: padding, right: padding)
         }
+    }
+    
+    fileprivate func setupCollectionView() {
+        collectionView.backgroundColor = .white
+        collectionView.contentInsetAdjustmentBehavior = .never
         
         collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: cellID)
         collectionView.register(HeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerID)

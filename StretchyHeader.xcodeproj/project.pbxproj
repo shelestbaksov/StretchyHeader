@@ -15,6 +15,7 @@
 		40A82E5C291E520B00AF59E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40A82E5A291E520B00AF59E3 /* LaunchScreen.storyboard */; };
 		40A82E64291E640200AF59E3 /* StretchyHeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A82E63291E640200AF59E3 /* StretchyHeaderViewController.swift */; };
 		40BF0229291E9A86005A3AFA /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF0228291E9A86005A3AFA /* HeaderView.swift */; };
+		40BF022D291EA21D005A3AFA /* Extensions+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BF022C291EA21D005A3AFA /* Extensions+UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		40A82E5D291E520B00AF59E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40A82E63291E640200AF59E3 /* StretchyHeaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StretchyHeaderViewController.swift; sourceTree = "<group>"; };
 		40BF0228291E9A86005A3AFA /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		40BF022C291EA21D005A3AFA /* Extensions+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				40A82E58291E520B00AF59E3 /* Assets.xcassets */,
 				40A82E5A291E520B00AF59E3 /* LaunchScreen.storyboard */,
 				40A82E5D291E520B00AF59E3 /* Info.plist */,
+				40BF022C291EA21D005A3AFA /* Extensions+UIView.swift */,
 			);
 			path = StretchyHeader;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 			files = (
 				40BF0229291E9A86005A3AFA /* HeaderView.swift in Sources */,
 				40A82E54291E520800AF59E3 /* ViewController.swift in Sources */,
+				40BF022D291EA21D005A3AFA /* Extensions+UIView.swift in Sources */,
 				40A82E50291E520800AF59E3 /* AppDelegate.swift in Sources */,
 				40A82E52291E520800AF59E3 /* SceneDelegate.swift in Sources */,
 				40A82E64291E640200AF59E3 /* StretchyHeaderViewController.swift in Sources */,
